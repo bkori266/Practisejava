@@ -15,10 +15,16 @@ public class MinMax {
 		for(int num:number)
 		{	if(num>max) {max=num;}
 			else if(min>num) {min=num;}
-			
 		}
-		
 		System.out.println("Min: "+min+" Max: "+max);
+	}
+	
+	static {
+		
+		
+		for(char alphabet='a';alphabet<='z';alphabet++) {System.out.print(alphabet+" ");}
+		
+		
 	}
 
 }
