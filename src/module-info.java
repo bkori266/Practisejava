@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author bmanikch
- *
- */
-module Practisejava {
-}
