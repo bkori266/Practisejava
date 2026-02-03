@@ -10,6 +10,10 @@ public class MinMax {
 
 	}
 	
+
+/**
+ * Finding MinMax  method
+ */
 	static {
 		int min=number[0],max=number[0];
 		for(int num:number)
@@ -18,9 +22,11 @@ public class MinMax {
 		}
 		System.out.println("Min: "+min+" Max: "+max);
 	}
-	
+
+/**
+ * Printing A-Z
+ */
 	static {
-		
 		
 		for(char alphabet='a';alphabet<='z';alphabet++) {System.out.print(alphabet+" ");}
 		
