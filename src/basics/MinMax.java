@@ -3,10 +3,10 @@ package basics;
 public class MinMax {
 	static int number[]= {1,4,3,8,0,2};
 	MinMax(){
-		System.out.println("Constructor calling");
+		System.out.println("\nConstructor calling");
 	}
 	public static void main(String[] args) {
-		
+		MinMax a=new MinMax();
 
 	}
 	

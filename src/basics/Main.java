@@ -13,7 +13,7 @@ public class Main {
 		
 	}
 
-	private void start() {
+	protected void start() {
 		array.acceptArray();
 		array.sort();
 		array.displayArray();
