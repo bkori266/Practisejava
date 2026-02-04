@@ -25,8 +25,11 @@ public class PrimeNumber {
 			}
 		}
 		
-		if(status==false)System.out.print(number+", ");
+//		if(status==false)System.out.print(number+", ");
 //		else System.out.println("No: "+number);
+		System.out.println(status==true?"No- "+number:"Yes- "+number);
+		
+		
 	}
 	
 
