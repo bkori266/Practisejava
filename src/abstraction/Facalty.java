@@ -1,14 +1,28 @@
 package abstraction;
 
-@FunctionalInterface
+
 interface College {
 	public void start();
 }
 
-public class Facalty{
+interface College2{
+	public void start();
+}
+
+class C implements College,College2{
+
+	@Override
+	public void start() {
+		System.out.println("Hello");
+		
+	}
+	
+}
+
+public class Facalty {
 	
 	public static void main(String[] args) {
-		College a=()->System.out.println("Hello");		
+		College a=new C();
 		a.start();
 	}
 }
