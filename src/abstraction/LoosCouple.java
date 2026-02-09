@@ -1,6 +1,8 @@
 package abstraction;
 
-
+class Test{
+	public void print() {}
+}
 interface Computer{
 	void code();
 }
@@ -23,19 +25,17 @@ class Desktop implements Computer{
 class Employee{
 	public void status(Computer a) {
 		a.code();
-		System.out.println("COmpleted");
+		System.out.println("Completed");
 
 	}
 }
 
-
-
 public class LoosCouple {
 
 	public static void main(String[] args) {
-		Employee a=new Employee();
+		Employee employee =new Employee();
 		Computer desktop =new Desktop();
-		a.status(desktop);
+		employee.status(desktop);
 
 	}
 

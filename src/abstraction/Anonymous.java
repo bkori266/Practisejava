@@ -9,7 +9,7 @@ abstract class Onboard{
 	
 }
 
-public class Anonymous {
+public class Anonymous  {
 
 	public static void main(String[] args) {
 		Onboard a=new Onboard() {
