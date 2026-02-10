@@ -8,7 +8,7 @@ class Person{
 		ticketCount++;
 	}
 }
-
+	
 public class ThreadSafe {
 
 	public static void main(String[] args) throws InterruptedException {
