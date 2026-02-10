@@ -8,7 +8,7 @@ interface Computer{
 }
 
 class Laptope implements Computer{
-	
+	@Override
 	public void code() {
 		System.out.println("Coding in laptope");
 	}
