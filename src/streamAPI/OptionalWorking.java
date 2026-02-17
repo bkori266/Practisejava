@@ -19,6 +19,7 @@ public class OptionalWorking {
 	List<Student> stu=students.stream()
 				.filter(a->a.getFees()>20000)
 				.map(a->a)
+//				.map(a->a.getName().toUpperCase())
 				.collect(Collectors.toList());
 	
 	for (Student student : stu) {
