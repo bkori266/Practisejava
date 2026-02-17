@@ -2,7 +2,7 @@ package basics;
 
 public class PrimeNumber {
 	
-	public int number[]= {1,0,10,13,15,18,20,17,23,290,229};
+	public int number[]= {14,1,0,10,13,15,18,20,17,23,290,229};
 	public static void main(String[] args) {
 		PrimeNumber a=new PrimeNumber();
 		a.start();

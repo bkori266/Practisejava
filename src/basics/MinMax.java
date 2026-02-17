@@ -1,7 +1,7 @@
 package basics;
 
 public class MinMax {
-	static int number[]= {1,4,3,8,0,2};
+	static int number[]= {1,4,3,8,50,0,2,12};
 	MinMax(){
 		System.out.println("\nConstructor calling");
 	}
