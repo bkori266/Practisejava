@@ -1,7 +1,7 @@
 package thread;
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 class RailwayTicket{
 	String name;
@@ -10,7 +10,7 @@ class RailwayTicket{
 	public RailwayTicket(){
 		seat=new ArrayList<String>();
 		seat.add("1-LB");
-//		seat.add("2-MB");
+		seat.add("2-MB");
 //		seat.add("3-UB");
 //		seat.add("4-SLB");
 //		seat.add("5-SUB");	
@@ -43,11 +43,9 @@ public class TicketBooking2 {
 		Thread person3=new Thread(booking,"Nitin");
 		Thread person4=new Thread(booking,"Soniya");
 		
-		person1.start();
-		
+		person1.start();		
 		person2.start();		
-		person3.start();
-		
+		person3.start();		
 		person4.start();
 	}
 

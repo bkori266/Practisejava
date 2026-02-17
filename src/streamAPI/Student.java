@@ -18,10 +18,6 @@ public class Student {
 		this.fees = fees;
 	}
 	
-	
-	
-	
-	
 	@Override
 	public String toString() {
 		return "Student [name=" + name + ", rollNo=" + rollNo + ", course=" + course + ", fees=" + fees + "]";
