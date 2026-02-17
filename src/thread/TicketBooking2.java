@@ -10,7 +10,7 @@ class RailwayTicket{
 	public RailwayTicket(){
 		seat=new ArrayList<String>();
 		seat.add("1-LB");
-		seat.add("2-MB");
+//		seat.add("2-MB");
 //		seat.add("3-UB");
 //		seat.add("4-SLB");
 //		seat.add("5-SUB");	
@@ -24,7 +24,7 @@ class RailwayTicket{
 		}
 		else {
 			name=Thread.currentThread().getName();
-			System.out.println(name+"No seat avaialable ");
+			System.out.println(name+": No seat avaialable ");
 		}
 	}
 }

@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class WorkingWithCollection {
 	
-	public String name="bbiiippppiiiiinnnnnn";
+	public String name="bbiiippppiiiiinnnnnnb";
 
 	public static void main(String[] args) {
 		WorkingWithCollection start=new WorkingWithCollection();
@@ -26,9 +26,6 @@ public class WorkingWithCollection {
 		
 		
 		System.out.println(character);
-		
-		
-		
 		
 	}
 
